@@ -60,7 +60,7 @@ def correct_input(move):
         if s > 9 or s < 1:
             s = int(input('введите корректные цифры    '))
         elif not s1:
-            s = int(input(" такая ячейка уже была , повторим ввод "))
+            print(" такая ячейка уже была , повторим ввод ")
         else:
             return s
         
